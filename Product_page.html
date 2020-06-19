@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+    <title> AdvanceCity </title>
+	<meta content="text/html;" http-equiv="content-type" charset="utf-8">
+
+	<link rel="stylesheet" href="index.css" type="text/css">
+
+</head>
+<body>
+<div id="main">
+    
+    <div id="container">
+		<header id="header" style="width: 100%;">
+			<div id="menu">				
+										
+				
+
+				<div id= "bar">
+					
+					<a href="Home_page.html"><img src="imagens/logo.png" id="logo"></a>
+
+					<button>Cities</button>
+					<input type="text" id="pesquisa" name="">
+
+
+					
+					<div class="dropdown">
+						<div>
+							<a onclick="myFunction()" class="dropbtn">Sign in</a>
+							
+							<a style="cursor: pointer;">Cart</a>
+							<label id="counter" style="color: chartreuse; font-size: 2vw;"></label>
+							
+						</div>
+
+						<!--       DropDown Sign-in        -->
+						<div id="myDropdown" class="dropdown-content">
+							<div id="signin">
+
+								<h1>Sign-in</h1><br><br>
+
+								<div>
+									<label>Email</label><br>
+									<input type="text"><br>
+								</div>
+
+								<div>
+									<label>Password</label><br>
+									<input type="text"><br>
+								</div>
+
+								<button class="button_Sign">Sign-in</button>
+
+								<hr style="width: 77%; margin-left: 15px;">
+								<h2>New Customer?</h2>
+								
+								<div id="divSignButton">
+									<a href="Sign-up_page.html">Sign-up</a>		
+								</div>						
+													
+							</div>
+						</div>
+					</div>
+
+
+		
+				</div>
+
+				<div id="All_products">
+					
+					<a href="Product_page.html">All products</a>
+
+					<img src="imagens/london.jpg">
+					<a href="">London</a>
+
+					<img src="imagens/paris.jpg">
+					<a href="">Paris</a>
+
+					<img src="imagens/madrid.jpg">
+					<a href="">Madrid</a>
+
+					<img src="imagens/pragues.jpg">
+					<a href="">Pragues</a>				
+				</div>
+			</div>
+		</header>
+    </div>
+
+    <div style="display: flex;">
+
+        <div class="Table_filters">
+            <div class="Filters">Filters<br></div>
+
+            <div>
+                <p>CITIES</p>
+
+                <input type="radio" name="trip">
+                <label>Madrid </label><br>
+                <input type="radio" name="trip">
+                <label>London </label><br>
+                <input type="radio" name="trip">
+                <label>Paris </label><br>
+                <input type="radio" name="trip">
+                <label>Prague </label><br><br>
+            </div>
+
+            <div>
+                <p>PRICES</p>
+                <input type="radio" name="prices">
+                <label>0€ - 50€ </label><br>
+                <input type="radio" name="prices">
+                <label>50€ - 100€ </label><br>
+                <input type="radio" name="prices">
+                <label>100€ - 150€ </label><br>
+                <input type="radio" name="prices">
+                <label>150€ and more </label><br><br>
+            </div>
+        </div>
+
+
+        <div id="Product_table">
+            <table>
+                <tr>
+                    <td>
+                        <div class="Products" id="london">
+
+                            <img src="imagens/london1.jpg">   
+                            <div class="Name_City">
+                                <div style="width: 10vw;">Warner Bros. Studio Tour <br><br>London</div>
+                            </div>
+
+                            <div class="Price">                   
+                                from <label>29,95€</label><br>
+                                <button>Buy</button>                   
+                            </div>                                  
+                        </div>
+
+                        <div class="Products" id="paris"> 
+                            
+                            <img src="imagens/paris1.jpg">   
+                            <div class="Name_City">
+                                <div style="width: 10vw;">Paris Big Bus Panoramic Bus Tour <br><br>Paris</div>
+                            </div>
+
+                            <div class="Price">                   
+                                from <label>19,95€</label><br>
+                                <button>Buy</button>                   
+                            </div> 
+                        </div>
+
+                        <div class="Products" id="paris">
+                            
+                            <img src="imagens/paris2.jpg">   
+                            <div class="Name_City">
+                                <div style="width: 10vw;">Moulin Rouge Show Paris <br><br>Paris</div>
+                            </div>
+
+                            <div class="Price">                   
+                                from <label>59,95€</label><br>
+                                <button>Buy</button>                   
+                            </div> 
+                        </div>
+
+                        <div class="Products">
+                            
+                            <img src="imagens/madrid1.jpg">   
+                            <div class="Name_City">
+                                <div style="width: 10vw;">Tour Santiago Bernabeu Stadium<br><br>Madrid</div>
+                            </div>
+
+                            <div class="Price">                   
+                                from <label>16,99€</label><br>
+                                <button>Buy</button>                   
+                            </div> 
+                        </div>
+
+                        <div class="Products">
+                            
+                            <img src="imagens/madrid2.jpg">   
+                            <div class="Name_City">
+                                <div style="width: 10vw;">Full Tour in Madrid<br><br>Madrid</div>
+                            </div>
+
+                            <div class="Price">                   
+                                from <label>109,95€</label><br>
+                                <button>Buy</button>                   
+                            </div> 
+                        </div>
+
+                        <div class="Products">
+                            
+                            <img src="imagens/london2.jpg">   
+                            <div class="Name_City">
+                                <div style="width: 10vw;">Total London Tour <br><br>London</div>
+                            </div>
+
+                            <div class="Price">                   
+                                from <label>159,95€</label><br>
+                                <button>Buy</button>                   
+                            </div> 
+                        </div>
+
+                        <div class="Products">
+                            
+                            <img src="imagens/london3.jpg">   
+                            <div class="Name_City">
+                                <div style="width: 10vw;">Tower of London Beefeater Tour <br><br>London</div>
+                            </div>
+
+                            <div class="Price">                   
+                                from <label>14,95€</label><br>
+                                <button>Buy</button>                   
+                            </div> 
+                        </div>
+
+                        <div class="Products">
+                            
+                            <img src="imagens/prague1.jpg">   
+                            <div class="Name_City">
+                                <div style="width: 10vw;">Prague food tour <br><br>Prague</div>
+                            </div>
+
+                            <div class="Price">                   
+                                from <label>32,95€</label><br>
+                                <button>Buy</button>                   
+                            </div> 
+                        </div>
+
+                        <div class="Products">
+                            
+                            <img src="imagens/paris3.jpg">   
+                            <div class="Name_City">
+                                <div style="width: 10vw;">Don't queue: Louvre Museum walking tour <br><br>Paris</div>
+                            </div>
+
+                            <div class="Price">                   
+                                from <label>89,95€</label><br>
+                                <button>Buy</button>                   
+                            </div> 
+                        </div>
+
+                        <div class="Products">
+                            
+                            <img src="imagens/prague2.jpg">   
+                            <div class="Name_City">
+                                <div style="width: 10vw;">Night walking tour with Prague beer and Czech Republic tapas <br><br>Prague</div>
+                            </div>
+
+                            <div class="Price">                   
+                                from <label>29,95€</label><br>
+                                <button>Buy</button>                   
+                            </div> 
+                        </div>
+
+                        <div class="Products">
+                            
+                            <img src="imagens/prague3.jpg">   
+                            <div class="Name_City">
+                                <div style="width: 10vw;">Cesky Krumlov Day Trip <br><br>Prague</div>
+                            </div>
+
+                            <div class="Price">                   
+                                from <label>49,99€</label><br>
+                                <button>Buy</button>                   
+                            </div> 
+                        </div>
+
+                        <div class="Products">
+                            
+                            <img src="imagens/paris4.jpg">   
+                            <div class="Name_City">
+                                <div style="width: 10vw;">Guided climb to the Eiffel Tower<br><br>Paris</div>
+                            </div>
+
+                            <div class="Price">                   
+                                from <label>39,99€</label><br>
+                                <button>Buy</button>                   
+                            </div> 
+                        </div>
+                    </td>
+                </tr>
+            </table>        
+        </div>
+
+
+        <div id="Cart">
+            <div>
+                <div class="Filters">CART</div>
+                <label>Name activity </label><br>
+                <label>Name activity </label><br><br>
+            </div>
+        </div>
+    </div>
+
+
+    <footer id="footer">
+		<div id="enlaces">
+			<h4>Enlaces rápidos</h4>
+			<p>Bienvenido</p>
+			<p>¿Quiénes somos?</p>
+			<p>Viajes</p>
+			<p>Programas</p>
+			<p>alojamiento</p>
+		</div>
+
+		<div id="apoyo">
+			<h4>Apoyo</h4>			
+			<p>Contactar</p>
+			<p>Pro Space</p>
+			<p>Créditos fotográficos</p>
+		</div>
+		<div id="direccion">
+			<h4>Dirección</h4>			
+			<p>Calle de Alberto Aguilera, 25</p>
+			<p>28015 Madrid</p>
+			<p>Espanha</p>
+		</div>
+		<img id="img5" src="imagens/maps.png">
+
+		<p id="e-mail">Suscríbase a nuestro boletín</p>
+		<input id="input" placeholder="E-mail" type="text" name="E-mail">
+	</footer>
+</div>
+</body>
+</html>
