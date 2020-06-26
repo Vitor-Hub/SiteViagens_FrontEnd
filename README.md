@@ -5,5 +5,6 @@
 <h2> Sobre </h2>
 
 <pre>
-    Versão final e atualizada da Front-End do Projeto Final realizado na Universidad Pontificia Comillas em Madrid - Espanha
+    Versão final e atualizada da Front-End do Projeto Final realizado na Universidad Pontificia 
+    Comillas em Madrid - Espanha
 </pre>
